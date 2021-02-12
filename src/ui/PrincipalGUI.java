@@ -132,7 +132,7 @@ public class PrincipalGUI {
     }
     
     @FXML
-    void Select(ActionEvent event) {
+    public void Select(ActionEvent event) {
     	//COMBOBOX SELECT
     }
 
@@ -340,8 +340,7 @@ public class PrincipalGUI {
     	try {
 			loadLogin();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
 		}
     }
 
